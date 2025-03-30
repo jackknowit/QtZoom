@@ -8,6 +8,12 @@ CONFIG += c++17
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+# 添加 Qt 头文件路径
+INCLUDEPATH += /opt/homebrew/opt/qt/include
+INCLUDEPATH += /opt/homebrew/opt/qt/lib/QtCore.framework/Headers
+INCLUDEPATH += /opt/homebrew/opt/qt/lib/QtGui.framework/Headers
+INCLUDEPATH += /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers
+
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
